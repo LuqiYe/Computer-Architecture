@@ -1,0 +1,83 @@
+D:/study/3608/lab/lab5/src/src/imem.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/study/3608/lab/lab5/src/src/imem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity imem
+-- Compiling architecture behavioral of imem
+
+} {} {}} D:/study/3608/lab/lab5/src/src/dmem_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/study/3608/lab/lab5/src/src/dmem_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity dmem_tb
+-- Compiling architecture behavioral of dmem_tb
+
+} {} {}} D:/study/3608/lab/lab5/src/src/common.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/study/3608/lab/lab5/src/src/common.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package common
+-- Compiling package body common
+-- Loading package common
+
+} {} {}} D:/study/3608/lab/lab5/src/src/loop.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/study/3608/lab/lab5/src/src/loop.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity lab5
+-- Compiling architecture behavioral of lab5
+
+} {} {}} D:/study/3608/lab/lab5/src/src/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/study/3608/lab/lab5/src/src/alu.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity alu
+-- Compiling architecture behavioral of alu
+
+} {} {}} D:/study/3608/lab/lab5/src/src/regfile.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/study/3608/lab/lab5/src/src/regfile.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity regfile
+-- Compiling architecture rtl of regfile
+
+} {} {}} D:/study/3608/lab/lab5/src/src/loop_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/study/3608/lab/lab5/src/src/loop_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity lab5_tb
+-- Compiling architecture behavioral of lab5_tb
+
+} {} {}} D:/study/3608/lab/lab5/src/src/dmem.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/study/3608/lab/lab5/src/src/dmem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package common
+-- Compiling entity dmem
+-- Compiling architecture rtl of dmem
+
+} {} {}}
