@@ -1,0 +1,23 @@
+# Loading std.standard
+# Loading work.dlx_types
+# Loading work.bv_arithmetic(body)
+# Loading work.alu(data)
+add wave -position insertpoint  \
+sim:/alu/operand1
+add wave -position insertpoint  \
+sim:/alu/operand2
+add wave -position end  sim:/alu/operation
+add wave -position end  sim:/alu/signed
+add wave -position end  sim:/alu/result
+add wave -position end  sim:/alu/error
+
+force -freeze sim:/alu/operand1 32'h01010101 0
+force -freeze sim:/alu/operand2 32'h01011111 0
+force -freeze sim:/alu/operation 4'h0 0
+run 100ns
+force -freeze sim:/alu/signed 1 0
+run 100ns
+force -freeze sim:/alu/operation 4'h1 0
+run 100ns
+force -freeze sim:/alu/signed 0 0
+run 100ns 

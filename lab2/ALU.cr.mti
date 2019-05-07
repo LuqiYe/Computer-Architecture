@@ -1,0 +1,25 @@
+M:/COMP43001/lab2/bva-b.vhd {1 {vcom -work work -2002 -explicit -stats=none M:/COMP43001/lab2/bva-b.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package body bv_arithmetic
+-- Loading package bv_arithmetic
+
+} {} {}} M:/COMP43001/lab2/bva.vhd {1 {vcom -work work -2002 -explicit -stats=none M:/COMP43001/lab2/bva.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package bv_arithmetic
+
+} {} {}} M:/COMP43001/lab2/dlx-types.vhd {1 {vcom -work work -2002 -explicit -stats=none M:/COMP43001/lab2/dlx-types.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package dlx_types
+
+} {} {}} M:/COMP43001/lab2/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none {M:\COMP43001\lab2\ALU.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package dlx_types
+-- Loading package bv_arithmetic
+-- Compiling entity ALU
+-- Compiling architecture Data of ALU
+
+} {} {}}
