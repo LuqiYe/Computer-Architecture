@@ -1,0 +1,53 @@
+vsim -gui lab3src.iandr_tb
+# vsim -gui 
+# Start time: 10:11:52 on Apr 28,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.common(body)
+# Loading work.iandr_tb(behavioral)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.imem(behavioral)#1
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /iandr_tb/u0/regfile0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /iandr_tb/u0/regfile0
+# ** Failure: error 'cpuout' is 0
+#    Time: 180 ns  Iteration: 0  Process: /iandr_tb/proc_stimuli File: I:/ex_work/2000_data/lab3/src/iandr_tb.vhd
+# Break in Process proc_stimuli at I:/ex_work/2000_data/lab3/src/iandr_tb.vhd line 46
+add wave -position insertpoint  \
+sim:/iandr_tb/u0/y \
+sim:/iandr_tb/u0/alu_func \
+sim:/iandr_tb/u0/alu_A \
+sim:/iandr_tb/u0/alu_B \
+sim:/iandr_tb/u0/alu_out \
+sim:/iandr_tb/u0/imm \
+sim:/iandr_tb/u0/ir \
+sim:/iandr_tb/u0/zero \
+sim:/iandr_tb/u0/opcode \
+sim:/iandr_tb/u0/funct3 \
+sim:/iandr_tb/u0/funct7 \
+sim:/iandr_tb/u0/rs1 \
+sim:/iandr_tb/u0/rs2 \
+sim:/iandr_tb/u0/rs3 \
+sim:/iandr_tb/u0/reg2 \
+sim:/iandr_tb/u0/rd \
+sim:/iandr_tb/u0/pc \
+sim:/iandr_tb/u0/regwrite
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /iandr_tb/u0/regfile0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /iandr_tb/u0/regfile0
+# ** Failure: error 'cpuout' is 0
+#    Time: 180 ns  Iteration: 0  Process: /iandr_tb/proc_stimuli File: I:/ex_work/2000_data/lab3/src/iandr_tb.vhd
+# Break in Process proc_stimuli at I:/ex_work/2000_data/lab3/src/iandr_tb.vhd line 46
+# Causality operation skipped due to absence of debug database file
