@@ -1,0 +1,45 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Efulladder
+Z0 w1548719789
+Z1 dM:/COMP43001/hw1
+Z2 8M:\COMP43001\hw1\FULLADDER.vhd
+Z3 FM:\COMP43001\hw1\FULLADDER.vhd
+l0
+L1
+V8fhCQzJGHHL:AY4G4NW;53
+!s100 ^AONZVDAA_^=K9X7CDz7:2
+Z4 OP;C;10.4a;61
+32
+Z5 !s110 1548724098
+!i10b 1
+Z6 !s108 1548724098.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|M:\COMP43001\hw1\FULLADDER.vhd|
+Z8 !s107 M:\COMP43001\hw1\FULLADDER.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit -O0
+Z10 tExplicit 1
+Adata
+Z11 DEx4 work 9 fulladder 0 22 8fhCQzJGHHL:AY4G4NW;53
+l7
+L6
+Z12 VoDz?c[OlB4<4G;`oc^d_m3
+Z13 !s100 g39JJo]=WCg2V>jCSiKLd1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
